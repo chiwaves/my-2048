@@ -108,7 +108,7 @@ function generateOneNumber() {
                 }
 
     //随机生成一个数字
-    var randNumber = Math.random() < 0.8 ? 512 : 256;
+    var randNumber = Math.random() < 0.8 ? 2 : 4;
 
     //在随机位置显示随机数字
     board[randx][randy] = randNumber;
